@@ -1,0 +1,61 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+nav {
+  background-color: #FFCC00;
+  height: 10em;
+  margin: auto;
+}
+
+html {
+  font-size: 10px;
+}
+
+.fa-chevron-left {
+  color: #383838;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 8%;
+  font-family: system-ui, sans-serif;
+  letter-spacing: .1em;
+  font-weight: 600;
+  color: 	#383838;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  padding: 5%;
+  background-color: #FFCC00;
+}
+
+.content {
+  float: left;
+}
+
+.bus {
+  display: inline-block;
+  padding: 5%;
+  border-bottom: .1em solid gray;
+  width: 100%;
+}
+
+.map {
+  background-image: url("../images/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #cccccc;
+  height: 30em;
+  width: 100%;
+}
+
+.star:hover { color:yellow; } /* mouse over */
