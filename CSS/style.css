@@ -4,30 +4,31 @@
 
 body {
   font-size: 10px;
+  font-family: system-ui, sans-serif;
+  font-weight: 600;
+  color: #383838;
+  letter-spacing: .03em;
 }
+
+/*nav bar*/
 
 nav {
   background-color: #FFCC00;
   height: 10em;
-  margin: auto;
 }
 
-html {
-  font-size: 10px;
+#statusBar, #logo{
+display: block;
+margin: 0 auto;
 }
 
-.fa-chevron-left {
-  color: #383838;
-}
 
-h1 {
+
+#location {
   font-size: 2em;
   text-align: center;
-  padding: 8%;
-  font-family: system-ui, sans-serif;
-  letter-spacing: .1em;
-  font-weight: 600;
-  color: 	#383838;
+  padding-top: 1em;;
+
 }
 
 h2 {
@@ -37,15 +38,44 @@ h2 {
   background-color: #FFCC00;
 }
 
-.content {
+#backButton {
+    position: absolute;
+    padding-top: 2em;
+}
+
+#back{
   float: left;
+  margin-left: .2em;
+  font-size: 1.2em;
+  padding-top: .25em;
+}
+
+#leftChevron {
+  float: left;
+  padding-left: .2em;
 }
 
 .bus {
-  display: inline-block;
-  padding: 5%;
+
+  padding: 3%;
   border-bottom: .1em solid gray;
   width: 100%;
+  font-size: 1.3em;
+  margin-left: .2em;
+
+}
+
+.star{
+  float: left;
+  margin-left: -.5em;
+  margin-right: .5em;
+  margin-top: -.5em;
+}
+
+.busline {
+  font-weight: bold;
+    float: left;
+    margin-right: 1em;
 }
 
 .map {
@@ -58,4 +88,10 @@ h2 {
   width: 100%;
 }
 
+
 .star:hover { color:yellow; } /* mouse over */
+
+.frequency {
+  float: right;
+  margin-top: -1em;
+}
