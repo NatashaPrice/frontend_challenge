@@ -4,7 +4,7 @@
 
 body {
   font-size: 10px;
-  font-family: system-ui, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
   color: #383838;
   letter-spacing: .03em;
@@ -34,7 +34,7 @@ margin: 0 auto;
 h2 {
   font-size: 2em;
   font-weight: 600;
-  padding: 5%;
+  padding: 3%;
   background-color: #FFCC00;
 }
 
@@ -57,11 +57,10 @@ h2 {
 
 .bus {
 
-  padding: 3%;
+  padding: 5%;
   border-bottom: .1em solid gray;
   width: 100%;
-  font-size: 1.3em;
-  margin-left: .2em;
+  font-size: 1.5em;
 
 }
 
@@ -89,7 +88,9 @@ h2 {
 }
 
 
-.star:hover { color:yellow; } /* mouse over */
+.star:hover {
+  color:yellow;
+  text-shadow: 0px 0px 3px #000;} /* mouse over */
 
 .frequency {
   float: right;
