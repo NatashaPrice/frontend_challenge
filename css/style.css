@@ -76,6 +76,7 @@ h2 {
   float: left;
   margin-right: 1em;
   font-size: 1.2em;
+  margin-top: -.1em;
 }
 
 .map {
