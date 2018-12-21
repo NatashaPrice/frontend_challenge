@@ -73,8 +73,9 @@ h2 {
 
 .busline {
   font-weight: bold;
-    float: left;
-    margin-right: 1em;
+  float: left;
+  margin-right: 1em;
+  font-size: 1.2em;
 }
 
 .map {
